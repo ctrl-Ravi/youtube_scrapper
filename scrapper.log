@@ -1,0 +1,499 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.11:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.11:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 14:42:36] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 14:42:41] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 14:42:41] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 14:42:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 14:43:27] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 14:43:28] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 14:43:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.11:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 14:52:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 14:52:32] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 14:52:32] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 14:53:16] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 14:53:17] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 14:53:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.11:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 14:56:05] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 14:56:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 14:56:06] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 14:56:44] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 14:56:45] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 14:56:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:send_file() got an unexpected keyword argument 'attachment_filename'
+ERROR:app:Exception on /download [GET]
+Traceback (most recent call last):
+  File "C:\Python3.10\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python3.10\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Python3.10\lib\site-packages\flask\app.py", line 1842, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Python3.10\lib\site-packages\flask\app.py", line 2134, in make_response
+    raise TypeError(
+TypeError: The view function for 'download_csv' did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 14:59:50] "[35m[1mGET /download HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.11:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 15:09:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 15:09:21] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 15:09:21] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 15:09:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:send_file() got an unexpected keyword argument 'attachment_filename'
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 15:10:09] "POST /review HTTP/1.1" 200 -
+INFO:root:send_file() got an unexpected keyword argument 'attachment_filename'
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 15:11:04] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.11:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:send_file() got an unexpected keyword argument 'attachment_filename'
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 15:14:37] "POST /review HTTP/1.1" 200 -
+INFO:root:send_file() got an unexpected keyword argument 'attachment_filename'
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 15:14:52] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.11:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:send_file() got an unexpected keyword argument 'attachment_filename'
+ERROR:app:Exception on /review [POST]
+Traceback (most recent call last):
+  File "C:\Python3.10\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python3.10\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Python3.10\lib\site-packages\flask\app.py", line 1842, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Python3.10\lib\site-packages\flask\app.py", line 2134, in make_response
+    raise TypeError(
+TypeError: The view function for 'index' did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 15:18:37] "[35m[1mPOST /review HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.11:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:send_file() got an unexpected keyword argument 'attachment_filename'
+ERROR:app:Exception on /review [POST]
+Traceback (most recent call last):
+  File "C:\Python3.10\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python3.10\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Python3.10\lib\site-packages\flask\app.py", line 1842, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Python3.10\lib\site-packages\flask\app.py", line 2134, in make_response
+    raise TypeError(
+TypeError: The view function for 'index' did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 15:45:31] "[35m[1mPOST /review HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.11:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 15:48:37] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 15:48:37] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 15:48:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 15:50:18] "GET /download HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.11:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=110.0.5481.178)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x008C37D3]
+	(No symbol) [0x00858B81]
+	(No symbol) [0x0075B36D]
+	(No symbol) [0x0073E5DA]
+	(No symbol) [0x007AF0CB]
+	(No symbol) [0x007C0A56]
+	(No symbol) [0x007AB216]
+	(No symbol) [0x00780D97]
+	(No symbol) [0x0078253D]
+	GetHandleVerifier [0x00B3ABF2+2510930]
+	GetHandleVerifier [0x00B68EC1+2700065]
+	GetHandleVerifier [0x00B6C86C+2714828]
+	GetHandleVerifier [0x00973480+645344]
+	(No symbol) [0x00860FD2]
+	(No symbol) [0x00866C68]
+	(No symbol) [0x00866D4B]
+	(No symbol) [0x00870D6B]
+	BaseThreadInitThunk [0x75FE00F9+25]
+	RtlGetAppContainerNamedObjectPath [0x77857BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x77857B8E+238]
+
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 22:30:53] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.11:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2023 22:32:37] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2023 22:32:37] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2023 22:32:37] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2023 22:32:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=110.0.5481.178)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x008C37D3]
+	(No symbol) [0x00858B81]
+	(No symbol) [0x0075B36D]
+	(No symbol) [0x0073E5DA]
+	(No symbol) [0x007AF0CB]
+	(No symbol) [0x007C0A56]
+	(No symbol) [0x007AB216]
+	(No symbol) [0x00780D97]
+	(No symbol) [0x0078253D]
+	GetHandleVerifier [0x00B3ABF2+2510930]
+	GetHandleVerifier [0x00B68EC1+2700065]
+	GetHandleVerifier [0x00B6C86C+2714828]
+	GetHandleVerifier [0x00973480+645344]
+	(No symbol) [0x00860FD2]
+	(No symbol) [0x00866C68]
+	(No symbol) [0x00866D4B]
+	(No symbol) [0x00870D6B]
+	BaseThreadInitThunk [0x75FE00F9+25]
+	RtlGetAppContainerNamedObjectPath [0x77857BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x77857B8E+238]
+
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2023 22:33:19] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.11:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 22:41:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 22:41:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 22:41:57] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 22:41:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2023 22:42:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2023 22:42:27] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2023 22:42:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 22:42:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 22:42:34] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 22:42:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 22:42:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=110.0.5481.178)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x004837D3]
+	(No symbol) [0x00418B81]
+	(No symbol) [0x0031B36D]
+	(No symbol) [0x002FE5DA]
+	(No symbol) [0x0036F0CB]
+	(No symbol) [0x00380A56]
+	(No symbol) [0x0036B216]
+	(No symbol) [0x00340D97]
+	(No symbol) [0x0034253D]
+	GetHandleVerifier [0x006FABF2+2510930]
+	GetHandleVerifier [0x00728EC1+2700065]
+	GetHandleVerifier [0x0072C86C+2714828]
+	GetHandleVerifier [0x00533480+645344]
+	(No symbol) [0x00420FD2]
+	(No symbol) [0x00426C68]
+	(No symbol) [0x00426D4B]
+	(No symbol) [0x00430D6B]
+	BaseThreadInitThunk [0x763E00F9+25]
+	RtlGetAppContainerNamedObjectPath [0x77737BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x77737B8E+238]
+
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 22:43:22] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.11:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.11:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 22:47:20] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 22:47:20] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 22:47:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.11:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 22:49:17] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 22:49:17] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 22:49:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 22:49:45] "GET /download HTTP/1.1" 200 -
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 22:50:02] "[36mGET /download HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.11:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 22:54:54] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 22:54:54] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 22:54:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 22:54:59] "GET /download HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.11:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 23:08:23] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 23:08:23] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 23:08:23] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 23:08:28] "GET /download HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.11:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 23:16:17] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 23:16:17] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 23:16:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 23:16:50] "GET /download HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.11:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:'src'
+INFO:root:'src'
+INFO:root:'src'
+INFO:root:All arrays must be of the same length
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 23:19:52] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.11:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 23:21:40] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 23:21:40] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 23:21:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 23:22:34] "[36mGET /download HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.11:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 23:26:06] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 23:26:07] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 23:26:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+ERROR:app:Exception on /download [GET]
+Traceback (most recent call last):
+  File "C:\Python3.10\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python3.10\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python3.10\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python3.10\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "D:\Python\datascience\youtube video\app.py", line 99, in download_csv
+    return send_file('video_detail.csv', mimetype='text/csv', as_attachment=True)
+  File "C:\Python3.10\lib\site-packages\flask\helpers.py", line 537, in send_file
+    return werkzeug.utils.send_file(  # type: ignore[return-value]
+  File "C:\Python3.10\lib\site-packages\werkzeug\utils.py", line 440, in send_file
+    stat = os.stat(path)
+FileNotFoundError: [WinError 2] The system cannot find the file specified: 'D:\\Python\\datascience\\youtube video\\video_detail.csv'
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 23:26:13] "[35m[1mGET /download HTTP/1.1[0m" 500 -
+ERROR:app:Exception on /download [GET]
+Traceback (most recent call last):
+  File "C:\Python3.10\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python3.10\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python3.10\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python3.10\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "D:\Python\datascience\youtube video\app.py", line 99, in download_csv
+    return send_file('video_detail.csv', mimetype='text/csv', as_attachment=True)
+  File "C:\Python3.10\lib\site-packages\flask\helpers.py", line 537, in send_file
+    return werkzeug.utils.send_file(  # type: ignore[return-value]
+  File "C:\Python3.10\lib\site-packages\werkzeug\utils.py", line 440, in send_file
+    stat = os.stat(path)
+FileNotFoundError: [WinError 2] The system cannot find the file specified: 'D:\\Python\\datascience\\youtube video\\video_detail.csv'
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 23:26:24] "[35m[1mGET /download HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.11:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 23:32:56] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 23:32:56] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 23:32:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.11:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+WARNING:urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F5ABBEAEC0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/b06fa066b761d5746ef45be156819a71
+WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F5ABBEB0D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/b06fa066b761d5746ef45be156819a71
+WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F5ABBEB310>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/b06fa066b761d5746ef45be156819a71
+WARNING:urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F5ABBEB190>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/b06fa066b761d5746ef45be156819a71
+WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F5ABBEB2B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/b06fa066b761d5746ef45be156819a71
+WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F5ABBEB8B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/b06fa066b761d5746ef45be156819a71
+INFO:root:'src'
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 23:45:04] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.11:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+WARNING:urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001742C95B8E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/21d0f7b066427522edd8c100a49d632d
+WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001742C95BAF0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/21d0f7b066427522edd8c100a49d632d
+WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001742C95BD30>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/21d0f7b066427522edd8c100a49d632d
+WARNING:urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001742C95BBB0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/21d0f7b066427522edd8c100a49d632d
+WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001742C95BCD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/21d0f7b066427522edd8c100a49d632d
+WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001742C9CC220>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/21d0f7b066427522edd8c100a49d632d
+INFO:root:'src'
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 23:50:26] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.11:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+WARNING:urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002952BF73460>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/d31d39173068f5e15290ede4693ef2ad
+WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002952BF73670>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/d31d39173068f5e15290ede4693ef2ad
+WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002952BF738B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/d31d39173068f5e15290ede4693ef2ad
+WARNING:urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002952BF73730>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/d31d39173068f5e15290ede4693ef2ad
+WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002952BF73850>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/d31d39173068f5e15290ede4693ef2ad
+WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002952BF73E50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/d31d39173068f5e15290ede4693ef2ad
+INFO:root:'src'
+INFO:werkzeug:192.168.29.11 - - [26/Feb/2023 23:54:27] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.11:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:'src'
+INFO:werkzeug:192.168.29.11 - - [27/Feb/2023 00:04:57] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.11:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:All arrays must be of the same length
+INFO:werkzeug:192.168.29.11 - - [27/Feb/2023 00:08:26] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.11:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:'src'
+INFO:werkzeug:192.168.29.11 - - [27/Feb/2023 00:11:40] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.11:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:192.168.29.11 - - [27/Feb/2023 00:16:22] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:192.168.29.11 - - [27/Feb/2023 00:16:22] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.29.11 - - [27/Feb/2023 00:16:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.29.11 - - [27/Feb/2023 00:16:25] "GET /download HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.11:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:192.168.29.11 - - [27/Feb/2023 00:18:57] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:192.168.29.11 - - [27/Feb/2023 00:18:57] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.29.11 - - [27/Feb/2023 00:18:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.29.11 - - [27/Feb/2023 00:19:51] "GET /download HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.11:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:'src'
+INFO:root:'src'
+INFO:root:'src'
+INFO:root:All arrays must be of the same length
+INFO:root:All arrays must be of the same length
+INFO:root:All arrays must be of the same length
+INFO:root:All arrays must be of the same length
+INFO:werkzeug:192.168.29.11 - - [27/Feb/2023 00:23:05] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:192.168.29.11 - - [27/Feb/2023 00:23:05] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.29.11 - - [27/Feb/2023 00:23:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.29.11 - - [27/Feb/2023 00:23:29] "GET /download HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.11:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:'src'
+INFO:root:'src'
+INFO:root:'src'
+INFO:werkzeug:192.168.29.11 - - [27/Feb/2023 00:27:05] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:192.168.29.11 - - [27/Feb/2023 00:27:05] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.29.11 - - [27/Feb/2023 00:27:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.29.11 - - [27/Feb/2023 00:27:09] "GET /download HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.11:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:'src'
+INFO:root:'src'
+INFO:root:'src'
+INFO:werkzeug:192.168.29.11 - - [27/Feb/2023 00:31:46] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:192.168.29.11 - - [27/Feb/2023 00:31:46] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.29.11 - - [27/Feb/2023 00:31:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.29.11 - - [27/Feb/2023 00:32:02] "GET /download HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.11:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:192.168.29.11 - - [27/Feb/2023 00:40:21] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:192.168.29.11 - - [27/Feb/2023 00:40:22] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.29.11 - - [27/Feb/2023 00:40:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.29.11 - - [27/Feb/2023 00:40:59] "GET /download HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.11:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:192.168.29.11 - - [27/Feb/2023 00:42:47] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:192.168.29.11 - - [27/Feb/2023 00:42:47] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.29.11 - - [27/Feb/2023 00:42:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.29.11 - - [27/Feb/2023 00:42:50] "GET /download HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.11:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:192.168.29.11 - - [27/Feb/2023 00:48:04] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:192.168.29.11 - - [27/Feb/2023 00:48:04] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.29.11 - - [27/Feb/2023 00:48:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.29.11 - - [27/Feb/2023 00:48:07] "GET /download HTTP/1.1" 200 -
+INFO:werkzeug:192.168.29.11 - - [27/Feb/2023 00:48:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.29.11 - - [27/Feb/2023 00:48:13] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.29.11 - - [27/Feb/2023 00:48:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
